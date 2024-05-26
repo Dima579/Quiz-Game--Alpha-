@@ -1,0 +1,14 @@
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\bin\Debug\net8.0\Quiz for bootcamp project 1.exe
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\bin\Debug\net8.0\Quiz for bootcamp project 1.deps.json
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\bin\Debug\net8.0\Quiz for bootcamp project 1.runtimeconfig.json
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\bin\Debug\net8.0\Quiz for bootcamp project 1.dll
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\bin\Debug\net8.0\Quiz for bootcamp project 1.pdb
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.AssemblyInfoInputs.cache
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.AssemblyInfo.cs
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.csproj.CoreCompileInputs.cache
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.dll
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\refint\Quiz for bootcamp project 1.dll
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.pdb
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.genruntimeconfig.cache
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\ref\Quiz for bootcamp project 1.dll

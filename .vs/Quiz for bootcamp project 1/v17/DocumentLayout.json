@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4368D851-558E-4761-AAA4-4C52028D175C}|Quiz for bootcamp project 1\\Quiz for bootcamp project 1.csproj|c:\\users\\d017417j\\source\\repos\\quiz for bootcamp project 1\\quiz for bootcamp project 1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4368D851-558E-4761-AAA4-4C52028D175C}|Quiz for bootcamp project 1\\Quiz for bootcamp project 1.csproj|solutionrelative:quiz for bootcamp project 1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4368D851-558E-4761-AAA4-4C52028D175C}|Quiz for bootcamp project 1\\Quiz for bootcamp project 1.csproj|c:\\users\\d017417j\\source\\repos\\quiz for bootcamp project 1\\quiz for bootcamp project 1\\questiongamemethod1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4368D851-558E-4761-AAA4-4C52028D175C}|Quiz for bootcamp project 1\\Quiz for bootcamp project 1.csproj|solutionrelative:quiz for bootcamp project 1\\questiongamemethod1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4368D851-558E-4761-AAA4-4C52028D175C}|Quiz for bootcamp project 1\\Quiz for bootcamp project 1.csproj|c:\\users\\d017417j\\source\\repos\\quiz for bootcamp project 1\\quiz for bootcamp project 1\\questionsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4368D851-558E-4761-AAA4-4C52028D175C}|Quiz for bootcamp project 1\\Quiz for bootcamp project 1.csproj|solutionrelative:quiz for bootcamp project 1\\questionsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\Quiz for bootcamp project 1\\Menu.cs",
+              "RelativeDocumentMoniker": "Quiz for bootcamp project 1\\Menu.cs",
+              "ToolTip": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\Quiz for bootcamp project 1\\Menu.cs",
+              "RelativeToolTip": "Quiz for bootcamp project 1\\Menu.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:39:02.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionGameMethod1.cs",
+              "DocumentMoniker": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\Quiz for bootcamp project 1\\QuestionGameMethod1.cs",
+              "RelativeDocumentMoniker": "Quiz for bootcamp project 1\\QuestionGameMethod1.cs",
+              "ToolTip": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\Quiz for bootcamp project 1\\QuestionGameMethod1.cs",
+              "RelativeToolTip": "Quiz for bootcamp project 1\\QuestionGameMethod1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:03:42.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionSheet.cs",
+              "DocumentMoniker": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\Quiz for bootcamp project 1\\QuestionSheet.cs",
+              "RelativeDocumentMoniker": "Quiz for bootcamp project 1\\QuestionSheet.cs",
+              "ToolTip": "C:\\Users\\d017417j\\source\\repos\\Quiz for bootcamp project 1\\Quiz for bootcamp project 1\\QuestionSheet.cs",
+              "RelativeToolTip": "Quiz for bootcamp project 1\\QuestionSheet.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T21:32:53.464Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
