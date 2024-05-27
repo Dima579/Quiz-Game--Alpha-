@@ -5,7 +5,7 @@ Thank you for downloading my project! This was initially created as a task for m
 The features are as follows:
 - Fully functioning menu
 - Points system with a highscore
-- Questions that require user input that are then validated with a validator method
+- Question that requires user input that are then validated with a validator method
 
 The Mechanics of the program are as follows:
 - Switch and loop used for menu
