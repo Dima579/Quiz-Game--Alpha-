@@ -4,6 +4,7 @@ using static Quiz_for_bootcamp_project_1.QuestionSheet;
 using static Quiz_for_bootcamp_project_1.QuestionGameMethod1;
 using static Quiz_for_bootcamp_project_1.AnswerMethods;
 using Quiz_for_bootcamp_project_1;
+using System.Collections.Generic;
 
 public class Menu
 {
@@ -11,7 +12,12 @@ public class Menu
 
     public static void Main()
     {
-        
+        AddQuestionList();
+        var Qs = Quiz_for_bootcamp_project_1.QuestionSheet.Qs;
+        string answers = "";
+        string questions = "";
+        string uAInput = "";
+
         String menuOptions = ($"1)START \n2)EXIT");
 
         Console.WriteLine("State your name");
@@ -26,7 +32,7 @@ public class Menu
             {
                 case "START":
                     Console.WriteLine("you are starting the game");
-                    GameStart(QuestionSheet.Q1, QuestionSheet.Q1.answers);
+                    QuestionGameMethod1.GameStart(Qs, answers, questions, uAInput);
                     break;
                 case "EXIT":
                     //Console.WriteLine("Goodbye");

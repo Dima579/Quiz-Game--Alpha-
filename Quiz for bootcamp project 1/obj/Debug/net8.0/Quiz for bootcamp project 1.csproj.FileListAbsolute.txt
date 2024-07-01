@@ -12,3 +12,4 @@ C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp pro
 C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.pdb
 C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.genruntimeconfig.cache
 C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\ref\Quiz for bootcamp project 1.dll
+C:\Users\d017417j\source\repos\Quiz for bootcamp project 1\Quiz for bootcamp project 1\obj\Debug\net8.0\Quiz for bootcamp project 1.sourcelink.json

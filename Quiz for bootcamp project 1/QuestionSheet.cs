@@ -8,72 +8,53 @@ namespace Quiz_for_bootcamp_project_1
 {
     public class QuestionSheet
     {
-       public string questions;
+        public string questions;
         public string answers;
 
-        public QuestionSheet(string questions, string answers) 
-        { 
-        this.questions = questions;
-        this.answers = answers;
+        public QuestionSheet(string questions, string answers)
+        {
+            this.questions = questions;
+            this.answers = answers;
         }
+
+        public static List<QuestionSheet> Qs = new();
 
         public static QuestionSheet Q1 = new QuestionSheet("What's 2+2?", "4");
         public static QuestionSheet Q2 = new QuestionSheet("What's 5X3?", "15");
         public static QuestionSheet Q3 = new QuestionSheet("What fruit is orange and round?", "ORANGE");
         public static QuestionSheet Q4 = new QuestionSheet("What animal barks?", "DOG");
-        public static QuestionSheet Q5 = new QuestionSheet("What is the name of the IDE that this program was written in?", "C#");
+        public static QuestionSheet Q5 = new QuestionSheet("What is the name of the IDE that this program was written in?", "VISUAL STUDIO");
 
-        //QuestionSheet Q6 = new QuestionSheet("What's 4%40?", "10");
-        //QuestionSheet Q7 = new QuestionSheet("What continent does France belong to?", "FRANCE");
-        //QuestionSheet Q8 = new QuestionSheet("What country does spaghetti come from?", "ITALY");
-        //QuestionSheet Q9 = new QuestionSheet("True or False: A blueberry is blue", "TRUE");
-        //QuestionSheet Q10 = new QuestionSheet("The colours of the british flag have blue white and?", "RED");
-        
-    }
+        public static QuestionSheet Q6 = new QuestionSheet("What's 4%40?", "10");
+        public static QuestionSheet Q7 = new QuestionSheet("What continent does France belong to?", "EUROPE");
+        public static QuestionSheet Q8 = new QuestionSheet("What country does spaghetti come from?", "ITALY");
+        public static QuestionSheet Q9 = new QuestionSheet("True or False: A blueberry is blue", "TRUE");
+        public static QuestionSheet Q10 = new QuestionSheet("The colours of the british flag have blue white and?", "RED");
 
-
-    public class AnswerMethods() 
-    {
-
-        public int finalScore;
-
-        public static String uAInput = Console.ReadLine();
-        public static int userHighScore = 0;
-
-        public static string UserAnswerIput() 
-        { 
-        String uAInput =Console.ReadLine();
-    
-            return uAInput;
+        public static void AddQuestionList()
+        {
+            Qs.Add(Q1);
+            Qs.Add(Q2);
+            Qs.Add(Q3);
+            Qs.Add(Q4);
+            Qs.Add(Q5);
+            Qs.Add(Q6);
+            Qs.Add(Q7);
+            Qs.Add(Q8);
+            Qs.Add(Q9);
+            Qs.Add(Q10);
         }
 
-
-        public static void AnswerValidator(String uAInput, string answers)
+        public static void Qpresent(List<QuestionSheet> Qs, string uAInput, string answers, string questions)
         {
-            if (uAInput == answers)
+            foreach (QuestionSheet Q in Qs)
             {
-                Console.WriteLine("Correct! +10 point for you!");
-                userHighScore=+10;
+                Console.WriteLine(Q.questions);
+                uAInput = Console.ReadLine();
+                AnswerMethods.AnswerValidator(uAInput, Q.answers);
             }
-            else
-            {
-                Console.WriteLine("Incorrect! -10 point.");
-                userHighScore=-10;
-            }
+            QuestionGameMethod1.EndGame();
         }
 
-        /*public static int AddPoints(int userHighScore)
-        {
-            userHighScore++;
-            return userHighScore;
-        }
-
-        public static int RemovePoints(int userHighScore)
-        {
-            userHighScore--;
-            return userHighScore;
-        }
-
-        */
     }
 }

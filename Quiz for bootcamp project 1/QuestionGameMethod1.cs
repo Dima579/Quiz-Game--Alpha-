@@ -15,7 +15,7 @@ namespace Quiz_for_bootcamp_project_1
 
     {
 
-             public static void GameStart(QuestionSheet Q1, string answers)
+             public static void GameStart(List<QuestionSheet> Qs, string answers, string questions, string uAInput)
             {
                 Console.WriteLine($"Please note: Write ALL answer in capital letters \nSTARTING GAME...");
                 Thread.Sleep(3000);
@@ -27,29 +27,20 @@ namespace Quiz_for_bootcamp_project_1
                 Thread.Sleep(1500);
                 Console.WriteLine("START!");
 
-             Q1Present(Q1, answers);
+            QuestionSheet.Qpresent(Qs, uAInput, answers, questions);
 
             }
 
-             public static void Q1Present(QuestionSheet Q1, string answers)
+        public static void EndGame()
+        {
+            Console.WriteLine($"game has ended! \nYou got {userHighScore}!");
+            if (userHighScore >= 50)
             {
-                Console.WriteLine(Q1.questions);
-                string UserAnswerIput;
-                AnswerValidator(uAInput, answers);
-                EndGame();
+                Console.WriteLine("Great Job!");
             }
 
-             static void EndGame()
-            {
-                Console.WriteLine($"game has ended! \nYou got {userHighScore}!");
-                if (userHighScore == 50) {
-                    Console.WriteLine("Great Job!");
-                }
-
-                Console.WriteLine("if you want to try again, please restart the program");
-                System.Environment.Exit(0);
-            }
+            Console.WriteLine("if you want to try again, please restart the program");
+            System.Environment.Exit(0);
         }
-        }
-      
-
+    }
+}
