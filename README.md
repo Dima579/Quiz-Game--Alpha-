@@ -1,5 +1,7 @@
-Greetings
+(PLEASE NOTE THAT THIS PROJECT IS CURRENTLY ON HOLD INDEFINTELY)
 
+
+Greetings
 Thank you for downloading my project! This was initially created as a task for my bootcamp, however I decided to continue this project and develop it further.
 
 The features are as follows:
